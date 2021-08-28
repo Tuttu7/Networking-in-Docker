@@ -10,7 +10,7 @@ docker network create -d bridge network name
 
 --driver , -d	bridge	Driver to manage the Network
 ```
-#### To create network with gatweay, subnetmask options 
+#### To create network with gateway, subnetmask options 
 ```
  docker network create \
   --driver=bridge \
