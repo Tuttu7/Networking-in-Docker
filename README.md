@@ -24,8 +24,10 @@ docker network create -d bridge network name
  docker container run --name mysql-db -e MYSQL_ROOT_PASSWORD=db_pass123 -d --network=wp-mysql-network mysql:5.6
  
  ```
- 
-
+ #### Mapping ports in docker container
+ ```
+ docker run -d  --name-result -p 5000:80 ( mapping 80 port  to 5000  port in host machine )
+ ```
 
 
 
