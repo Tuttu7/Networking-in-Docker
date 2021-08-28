@@ -22,6 +22,7 @@ docker network create -d bridge network name
  
  ```
  docker container run --name mysql-db -e MYSQL_ROOT_PASSWORD=db_pass123 -d --network=wp-mysql-network mysql:5.6
+ 
  ```
  
 
