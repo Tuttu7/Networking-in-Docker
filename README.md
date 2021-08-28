@@ -10,7 +10,7 @@ docker network create -d bridge network name
 
 --driver , -d	bridge	Driver to manage the Network
 ```
-#### To create network with gateway, subnetmask options 
+#### To create network with gatweay, subnetmask options 
 ```
  docker network create \
   --driver=bridge \
@@ -23,6 +23,17 @@ docker network create -d bridge network name
  ```
  docker container run --name mysql-db -e MYSQL_ROOT_PASSWORD=db_pass123 -d --network=wp-mysql-network mysql:5.6
  ```
+ 
+
+
+
+
+
+
+
+
+
+
  
  
 
